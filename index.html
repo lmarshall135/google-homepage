@@ -1,19 +1,166 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+      <meta charset="utf-8">
         <title>Google homepage</title>
     </head>
+    <header>
+        <ul class="topNavbar"
+            <li class="about" style="padding-left:0;">About</li>
+            <li class="store">Store</li>
+            <li class="signIn">Sign In</li>
+            <li class="gmail">Gmail</li>
+        </ul>
+    </header>
     <body>
-        <img src="google image.png" alt="google homepage image">
+        <center>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
+            <input type="search" placeholder="Search Google or type a URL" id="searchform">
+            <div class="search"></div>
+            <div class="googleSearch">Google Search</div>
+            <div glass="feelingLucky">I'm Feeling Lucky</div>
+        </center>
+        <footer>
+            <ul class="bottomNavbar"
+                <li class="advertising" style="padding-left">Advertising</li>
+                <li class="business">Business</li>
+                <li class="howSearchworks">How Search Works</li>
+                <li class="settings">Search</li>
+                <li class="terms">Terms</li>
+                <li class="privacy">Privacy</li>
+            </ul>
+        </footer>
     </body>
-    h1{
-        margin: 0;
-        padding: 20px 0;
-        color: #FFFFFF
-    }
-    img {
+</html>
+    <style>
+        .img {
+        height: 92px;
+        width: 272px;
         display: block;
         margin: 0 auto;
-    }
+        padding-top: 200px;
+        }
+        .search {
+            background: #FFFFFF;
+            border: 1px solid;
+            border-radius: 24px;
+            width: 482px;
+            height:44px;
+            margin: 0 auto;
+        }
+        .googleSearch {
+            font-size:14px;
+            font-family: Arial;
+            position: relative;
+            right: 100px;
+            top: 25px;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .googleSearch {
+            color: #222;
+            background-color: #f8f8f8;
+        }
+        .googleSearch: hover {
+            color: #222;
+            background-color: #f8f8f8;
+        }
+        .feelingLucky {
+            font-size: 14px;
+            font-family: Arial;
+            position: relative;
+            left: 50px;
+            bottom: 13px;
+            width:120px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            cursor: pointer;
+        }
+        .feelingLucky: hover {
+            background-color: #f8f8f8;
+            color: #222;
+        }
+        .topNavbar {
+            list-style-type: none;
+            margin-top: 25px;
+            font-size:small;
+            font-family: Arial;
+            color: #000;
+        }
+        .gmail {
+            float:right;
+        }
+        .images {
+            float:right;
+        }
+        .signIn {
+            float: right;
+        }
+        .bottomNavbar {
+            position: fixed;
+            list-style-type: none;
+            bottom: 0;
+            width: 100%;
+            margin-left: -27px;
+            margin-bottom: 0px;
+            font-size: 13px;
+            font-family: Arial;
+            line-height: 40px;
+            font-size: 14px;
+            font-family: Arial;
+            color: #222;
+            background-color: #f2f2f2;
+            line-height: 40px;
+        }
+        .privacy {
+            position: relative;
+            right: 40px;
+            float: right;
+        }
+        .terms {
+            float: right;
+            position: relative;
+            right: 40px;
+        }
+        .settings {
+            float: right;
+            position: relative;
+            right: 40px;
+        }
+        body {
+        background:#FFFFFF;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        #search-text-input {
+        border-top: thin solid;
+        border-right: thin solid;
+        border-bottom: 0;
+        border-left: thin solid;
+        float: center;
+        height: 44px;
+        background: #FFFFFF; 
+        position:relative;
+        width: 561px;
+        border-radius: 10px;
+        margin: auto;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        }
+    </style>
 </html>
